@@ -77,7 +77,7 @@ namespace c_oop_project_1_pos
                 using (reader)
                 {
                     //Change Color to Red (make this a configurable value in the future)
-                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Green;
                     string line;
                     while ((line = reader.ReadLine()) != null)
                     {

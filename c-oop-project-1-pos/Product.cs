@@ -41,7 +41,7 @@ namespace c_oop_project_1_pos
         //Uses CSV to generate a list of products available
         public static List<Product> GenerateProductList()
         {
-            StreamReader productReader = new StreamReader("../../Random_Grocery_List.csv");
+            StreamReader productReader = new StreamReader("../../Product_List.csv");
             string line = "";
             while ((line = productReader.ReadLine()) != null)
             {
